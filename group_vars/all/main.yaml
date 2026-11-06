@@ -7,3 +7,13 @@ mysql_root_password: "{{ vault_mysql_root_password }}"
 rabbitmq_user: "{{ vault_rabbitmq_user }}"
 rabbitmq_password: "{{ vault_rabbitmq_password }}"
 
+mongodb_host: mongodb.srigokr.store
+redis_host: redis.srigokr.store
+mysql_host: mysql.srigokr.store
+rabbitmq_host: rabbitmq.srigokr.store
+catalogue_host: catalogue.srigokr.store
+user_host: user.srigokr.store
+cart_host: cart.srigokr.store
+shipping_host: shipping.srigokr.store
+payment_host: payment.srigokr.store
+

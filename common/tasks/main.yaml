@@ -1,0 +1,3 @@
+- name: this is a common role main task
+  debug:
+    msg: "this is a common role main task"
